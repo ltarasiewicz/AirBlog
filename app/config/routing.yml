@@ -1,0 +1,15 @@
+air_admin:
+    resource: "@AirAdminBundle/Resources/config/routing.yml"
+    prefix:   /admin-panel
+
+common_user_admin:
+    resource: "@CommonUserBundle/Resources/config/routing-admin.yml"
+    prefix:   /admin-panel/users
+
+common_user:
+    resource: "@CommonUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+air_blog:
+    resource: "@AirBlogBundle/Resources/config/routing.yml"
+    prefix:   /
